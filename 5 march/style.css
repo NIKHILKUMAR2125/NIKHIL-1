@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    font-size: larger;
+    block-size: 20px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+li{
+    life-style:none;
+    font-size: 30px;
+    padding: 10px;
+}
+.discription{
+ display: flex; 
+ margin:1.5rem;  
+}
+.container{
+    display: flex;
+    text-align:center;
+    margin-right: 2rem;
+    padding: 1rem;
+    display: block;
+
+}
+.content{
+    display: flex;
+    text-align:center;
+    margin-right: 2rem;
+    padding: 1rem;
+    display:block;
+}
+.command{
+    display: flex;
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+    display: block;
+}
+.footer{
+    height:4rem;
+    font-size:1.5rem;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
